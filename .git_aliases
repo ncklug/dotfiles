@@ -1,0 +1,12 @@
+alias gc="git checkout"
+alias gcm="git checkout master"
+alias gb="git branch"
+alias gl="git log"
+alias gs="git status"
+alias gA="git add -A"
+alias gt='gA && git commit -m "Changes based on code review"'
+alias gd='git diff'
+alias gu='git reset --soft HEAD^'
+alias grm='git rebase master'
+alias grc='git rebase --continue'
+alias grs='git rebase --skip'
